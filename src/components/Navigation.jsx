@@ -6,38 +6,61 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header>
-      <nav className="h-20 bg-[#222222] flex items-center px-6 md:px-12">
-        <div className="w-full flex items-center justify-between">
-          {/* Logo */}
-          <div className="text-white text-lg font-semibold">Khush</div>
+    <header className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-full">
+      {/* Navbar (HALF WIDTH & CENTERED) */}
+      <nav
+        className=" mx-auto h-16 w-16 md:h-16 md:w-[45%]
+    backdrop-blur-lg bg-white/10 border border-white/30
+    rounded-full flex items-center justify-center px-6"
+      >
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex xl:gap-20 gap-5 text-white text-sm">
+          <li className="cursor-pointer hover:text-gray-300 transition">
+            <a href="#home">Home</a>
+          </li>
 
-          {/* Desktop Menu */}
-          <ul className="hidden md:flex justify-center gap-12 text-white text-base">
-            <li className="cursor-pointer hover:text-gray-300">Home</li>
-            <li className="cursor-pointer hover:text-gray-300">Projects</li>
-            <li className="cursor-pointer hover:text-gray-300">Experience</li>
-            <li className="cursor-pointer hover:text-gray-300">Contact</li>
-          </ul>
+          <li className="cursor-pointer hover:text-gray-300 transition">
+            <a href="#projects">Projects</a>
+          </li>
 
-          {/* Mobile Menu Icon */}
-          <button
-            className="md:hidden text-white text-2xl"
-            onClick={() => setOpen(!open)}
-          >
-            {open ? <IoClose /> : <CiMenuBurger />}
-          </button>
-        </div>
+          <li className="cursor-pointer hover:text-gray-300 transition">
+            <a href="#Companyexperience">Experience</a>
+          </li>
+
+          <li className="cursor-pointer hover:text-gray-300 transition">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden text-white text-2xl ml-auto"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <IoClose /> : <CiMenuBurger />}
+        </button>
       </nav>
 
-      {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-[#222222] text-white">
-          <ul className="flex flex-col items-center gap-6 py-6">
-            <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">Projects</li>
-            <li className="cursor-pointer">Experience</li>
-            <li className="cursor-pointer">Contact</li>
+        <div
+          className="md:hidden mt-4 mx-auto w-[90%] 
+          backdrop-blur-md bg-white/10 border border-white/50 rounded-2xl"
+        >
+          <ul className="flex flex-col items-center gap-6 py-6 text-white">
+            <li className="cursor-pointer">
+              <a href="#home" onClick={() => setOpen(false)}>
+                Home
+              </a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#Companyexperience" onClick={() => setOpen(false)}>Experience</a>
+            </li>
+            <li className="cursor-pointer" onClick={() => setOpen(false)}>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       )}

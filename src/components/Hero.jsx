@@ -3,10 +3,10 @@ import Profile from "../assets/a653a959b2f589eba2488d2ba08e3a09.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-screen">
-      <div className="w-full flex flex-col items-center pt-24 gap-10">
+    <section id="home" className="w-full h-full">
+      <div className="w-full flex flex-col items-center pt-28">
         {/* Profile Image */}
-        <div className="w-56 h-56 bg-amber-700 rounded-full overflow-hidden">
+        <div className="w-56 h-56 rounded-full overflow-hidden">
           <img
             src={Profile}
             alt="Profile"
@@ -15,11 +15,37 @@ const Hero = () => {
         </div>
 
         {/* Text */}
-        <div className="text-center">
-          <h1 className="text-[55px] text-white font-semibold ">
-            <span className="block">I do code and craft</span>
-            <span>modern web experiences.</span>
-          </h1>
+        <div className="text-center pt-10.25">
+          <div className="lg:text-[50px] md:text-[40px] text-[25px] text-white font-extrabold">
+            <h1>
+              <span className="block">Hi, I'm Khush!</span>
+              <span>FRONTEND DEVELOPER</span>
+            </h1>
+          </div>
+        </div>
+
+        <div className="text-center pt-5">
+          <div className="text-[#C5C5C5] font-light text-sm px-2.5 md:px-30 lg:px-50 xl:px-130">
+            <p>
+              I am a frontend developer focused on building modern, responsive,
+              and user-friendly web applications. I specialize in creating clean
+              UI, seamless user experiences, and scalable frontend solutions
+              using modern web technologies.
+            </p>
+          </div>
+        </div>
+
+        <div className="pt-8">
+          <div className="flex flex-wrap justify-center gap-5">
+            <button className="px-7 py-3 font-semibold bg-white rounded-full cursor-pointer">
+              Get In Touch
+            </button>
+            <a href="/public/Khush Kalariya.pdf" download>
+              <button className="px-7 py-3 font-semibold text-white border rounded-full hover:bg-white hover:text-black cursor-pointer">
+                Download CV
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

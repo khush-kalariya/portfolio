@@ -4,15 +4,51 @@ import { FaLocationArrow } from "react-icons/fa";
 const projectsData = [
   {
     id: 1,
+    title: "Myusual",
+    image: "src/assets/myusal.png",
+    link: "https://myusual.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "AtoZVisionCare",
+    image: "src/assets/Atozeyecare.png",
+    link: "https://github.com/khush-kalariya/AtoZVisionCare",
+  },
+
+  {
+    id: 3,
     title: "Moviehub",
     image: "src/assets/image.png",
     link: "https://moviehub-blush.vercel.app/",
   },
+
   {
-    id: 2,
+    id: 4,
+    title: "PortfolioWebsite",
+    image: "src/assets/Portfolio.png",
+    link: "https://github.com/khush-kalariya/portfolio",
+  },
+
+  {
+    id: 5,
     title: "Trothlabs",
     image: "src/assets/trothlabs.png",
     link: "https://trothlabs.vercel.app/",
+  },
+
+  {
+    id: 6,
+    title: "Coffee time",
+    image: "src/assets/coffetime.png",
+    link: "https://github.com/khush-kalariya/Foodwebsite/",
+  },
+
+  {
+    id: 7,
+    title: "Goal-Track",
+    image: "src/assets/Goal-track.png",
+    link: "https://github.com/khush-kalariya/Goal-Track",
   },
 ];
 

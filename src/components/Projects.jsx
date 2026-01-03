@@ -1,56 +1,59 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
+import moviehubImg from "../assets/image.png";
+import myusualImg from "../assets/myusal.png";
+import atozImg from "../assets/Atozeyecare.png";
+import portfolioImg from "../assets/Portfolio.png";
+import trothlabsImg from "../assets/trothlabs.png";
+import coffeeImg from "../assets/coffetime.png";
+import goalImg from "../assets/Goal-track.png";
+
 
 const projectsData = [
   {
     id: 1,
     title: "Myusual",
-    image: "src/assets/myusal.png",
+    image: myusualImg,
     link: "https://myusual.vercel.app/",
   },
-
   {
     id: 2,
     title: "AtoZVisionCare",
-    image: "src/assets/Atozeyecare.png",
+    image: atozImg,
     link: "https://github.com/khush-kalariya/AtoZVisionCare",
   },
-
   {
     id: 3,
     title: "Moviehub",
-    image: "src/assets/image.png",
+    image: moviehubImg,
     link: "https://moviehub-blush.vercel.app/",
   },
-
   {
     id: 4,
     title: "PortfolioWebsite",
-    image: "src/assets/Portfolio.png",
-    link: "https://github.com/khush-kalariya/portfolio",
+    image: portfolioImg,
+    link: "https://khush-portfolio.vercel.app/",
   },
-
   {
     id: 5,
     title: "Trothlabs",
-    image: "src/assets/trothlabs.png",
+    image: trothlabsImg,
     link: "https://trothlabs.vercel.app/",
   },
-
   {
     id: 6,
     title: "Coffee time",
-    image: "src/assets/coffetime.png",
+    image: coffeeImg,
     link: "https://github.com/khush-kalariya/Foodwebsite/",
   },
-
   {
     id: 7,
     title: "Goal-Track",
-    image: "src/assets/Goal-track.png",
+    image: goalImg,
     link: "https://github.com/khush-kalariya/Goal-Track",
   },
 ];
+
 
 const Projects = () => {
   return (

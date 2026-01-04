@@ -2,11 +2,11 @@ import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
 import moviehubImg from "../assets/image.png";
 import myusualImg from "../assets/myusal.png";
-import atozImg from "../assets/Atozeyecare.png";
-import portfolioImg from "../assets/Portfolio.png";
+import atozImg from "../assets/atozeyecare.png";
+import portfolioImg from "../assets/portfolio.png";
 import trothlabsImg from "../assets/trothlabs.png";
 import coffeeImg from "../assets/coffetime.png";
-import goalImg from "../assets/Goal-track.png";
+import goalImg from "../assets/goaltrack.png";
 
 
 const projectsData = [

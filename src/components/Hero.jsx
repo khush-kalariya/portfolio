@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="pt-8">
           <div className="flex flex-wrap justify-center gap-5">
             <button className="px-7 py-3 font-semibold bg-white rounded-full cursor-pointer">
-              Get In Touch
+              <a href="#contact">Get In Touch</a>
             </button>
             <a href="/public/Khush Kalariya.pdf" download>
               <button className="px-7 py-3 font-semibold text-white border rounded-full hover:bg-white hover:text-black cursor-pointer">

@@ -6,18 +6,18 @@ import { FiFigma } from "react-icons/fi";
 import { SiVercel } from "react-icons/si";
 
 const icons = [
-  { icon: FaGitAlt, className: "hover:text-orange-600" },
-  { icon: FaGithub, className: "hover:text-white" },
-  { icon: FiFigma, className: "hover:text-pink-500" },
-  { icon: IoLogoHtml5, className: "hover:text-orange-500" },
-  { icon: IoLogoCss3, className: "hover:text-blue-500" },
-  { icon: SiBootstrap, className: "hover:text-purple-500" },
+  { icon: FaGitAlt, className: "text-orange-600" },
+  { icon: FaGithub, className: "text-white" },
+  { icon: FiFigma, className: "text-pink-500" },
+  { icon: IoLogoHtml5, className: "text-orange-500" },
+  { icon: IoLogoCss3, className: "text-blue-500" },
+  { icon: SiBootstrap, className: "text-purple-500" },
 
-  { icon: IoLogoJavascript, className: "hover:text-yellow-400" },
-  { icon: SiTailwindcss, className: "hover:text-sky-400" },
-  { icon: FaReact, className: "hover:text-cyan-400" },
-  { icon: SiNextdotjs, className: "hover:text-black/40" },
-  { icon: SiVercel, className: "hover:text-white" },
+  { icon: IoLogoJavascript, className: "text-yellow-400" },
+  { icon: SiTailwindcss, className: "text-sky-400" },
+  { icon: FaReact, className: "text-cyan-400" },
+  { icon: SiNextdotjs, className: "text-white" },
+  { icon: SiVercel, className: "text-white" },
 ];
 
 const Experience = () => {

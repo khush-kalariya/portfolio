@@ -43,7 +43,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition"
           >
-            <FaLinkedin size={36} className="cursor-pointer" />
+            <FaLinkedin size={40} className="cursor-pointer text-[#167AAB]" />
           </a>
 
           <a
@@ -52,7 +52,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition"
           >
-            <FaGithub size={36} className="cursor-pointer" />
+            <FaGithub size={40} className="cursor-pointer" />
           </a>
         </div>
       </div>

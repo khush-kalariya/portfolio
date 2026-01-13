@@ -32,7 +32,8 @@ const Experience = () => {
           {icons.map(({ icon: Icon, className }, index) => (
             <Icon
               key={index}
-              className={`text-5xl transition ${className}`}
+              className={`text-5xl transition-transform duration-100 ease-in-out 
+                hover:scale-200 ${className}`}
             />
           ))}
         </div>

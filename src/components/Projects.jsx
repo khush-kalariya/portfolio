@@ -1,13 +1,14 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
-import moviehubImg from "../assets/image.png";
-import myusualImg from "../assets/myusal.png";
-import atozImg from "../assets/atozeyecare.png";
-import portfolioImg from "../assets/portfolio.png";
-import trothlabsImg from "../assets/trothlabs.png";
-import coffeeImg from "../assets/coffetime.png";
-import goalImg from "../assets/goaltrack.png";
 
+// ✅ Vite-safe image imports
+const moviehubImg = new URL("../assets/image.png", import.meta.url).href;
+const myusualImg = new URL("../assets/myusal.png", import.meta.url).href;
+const atozImg = new URL("../assets/atozeyecare.png", import.meta.url).href;
+const portfolioImg = new URL("../assets/portfolio.png", import.meta.url).href;
+const trothlabsImg = new URL("../assets/trothlabs.png", import.meta.url).href;
+const coffeeImg = new URL("../assets/coffetime.png", import.meta.url).href;
+const goalImg = new URL("../assets/goaltrack.png", import.meta.url).href;
 
 const projectsData = [
   {
@@ -42,7 +43,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Coffee time",
+    title: "Coffee Time",
     image: coffeeImg,
     link: "https://github.com/khush-kalariya/Foodwebsite/",
   },
@@ -54,16 +55,15 @@ const projectsData = [
   },
 ];
 
-
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="w-full h-full pb-24 px-5">
-        <div className="text-center uppercase text-white font-extrabold text-[35px] tracking-widest">
-          <h1>projects</h1>
-        </div>
+      <div className="w-full pb-24 px-5">
+        <h1 className="text-center uppercase text-white font-extrabold text-[35px] tracking-widest">
+          Projects
+        </h1>
 
-        <div className="max-w-4xl mx-auto pt-6.75">
+        <div className="max-w-4xl mx-auto pt-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {projectsData.map((project) => (
               <a
@@ -73,10 +73,12 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden hover:scale-[1.02] transition cursor-pointer">
-                  <div className="w-full object-cover">
-                    <img src={project.image} alt={project.title} />
-                  </div>
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden transition-transform hover:scale-[1.02] cursor-pointer">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover"
+                  />
 
                   <div className="p-5 flex items-center justify-between">
                     <div>

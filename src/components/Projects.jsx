@@ -41,7 +41,6 @@ const projectsData = [
     id: 4,
     title: "PortfolioWebsite",
     image: Portfolio,
-    link: "https://khush-portfolio.vercel.app/",
   },
   {
     id: 5,

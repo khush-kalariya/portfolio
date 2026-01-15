@@ -16,7 +16,7 @@ const Hero = () => {
 
         {/* Text */}
         <div className="text-center pt-10.25">
-          <div className="lg:text-[50px] md:text-[40px] text-[25px] text-white font-extrabold">
+          <div className="lg:text-[50px] md:text-[40px] text-[30px] text-white font-extrabold">
             <h1>
               <span className="block">Hi, I'm Khush!</span>
               <span>FRONTEND DEVELOPER</span>

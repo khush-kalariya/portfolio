@@ -1,56 +1,64 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
+import Myusual from "../assets/4.webp"
+import Atozvisioncare from "../assets/1.webp"
+import Trothlab from "../assets/2.webp"
+import Moviehub from "../assets/5.webp"
+import Portfolio from "../assets/3.webp"
+import CoffeeTime from "../assets/6.webp"
+import GoalTrack from "../assets/7.webp"
+
 
 // ✅ Vite-safe image imports
-const moviehubImg = new URL("../assets/image.png", import.meta.url).href;
-const myusualImg = new URL("../assets/myusal.png", import.meta.url).href;
-const atozImg = new URL("../assets/atozeyecare.png", import.meta.url).href;
-const portfolioImg = new URL("../assets/portfolio.png", import.meta.url).href;
-const trothlabsImg = new URL("../assets/trothlabs.png", import.meta.url).href;
-const coffeeImg = new URL("../assets/coffetime.png", import.meta.url).href;
-const goalImg = new URL("../assets/goaltrack.png", import.meta.url).href;
+// const moviehubImg = new URL("../assets/image.png", import.meta.url).href;
+// const myusualImg = new URL("../assets/myusal.png", import.meta.url).href;
+// const atozImg = new URL("../assets/atozeyecare.png", import.meta.url).href;
+// const portfolioImg = new URL("../assets/portfolio.png", import.meta.url).href;
+// const trothlabsImg = new URL("../assets/trothlabs.png", import.meta.url).href;
+// const coffeeImg = new URL("../assets/coffetime.png", import.meta.url).href;
+// const goalImg = new URL("../assets/goaltrack.png", import.meta.url).href;
 
 const projectsData = [
   {
     id: 1,
     title: "Myusual",
-    image: myusualImg,
+    image: Myusual,
     link: "https://myusual.vercel.app/",
   },
   {
     id: 2,
     title: "AtoZVisionCare",
-    image: atozImg,
+    image: Atozvisioncare,
     link: "https://github.com/khush-kalariya/AtoZVisionCare",
   },
   {
     id: 3,
     title: "Moviehub",
-    image: moviehubImg,
+    image: Moviehub,
     link: "https://moviehub-blush.vercel.app/",
   },
   {
     id: 4,
     title: "PortfolioWebsite",
-    image: portfolioImg,
+    image: Portfolio,
     link: "https://khush-portfolio.vercel.app/",
   },
   {
     id: 5,
     title: "Trothlabs",
-    image: trothlabsImg,
+    image: Trothlab,
     link: "https://trothlabs.vercel.app/",
   },
   {
     id: 6,
     title: "Coffee Time",
-    image: coffeeImg,
+    image: CoffeeTime,
     link: "https://github.com/khush-kalariya/Foodwebsite/",
   },
   {
     id: 7,
     title: "Goal-Track",
-    image: goalImg,
+    image: GoalTrack,
     link: "https://github.com/khush-kalariya/Goal-Track",
   },
 ];

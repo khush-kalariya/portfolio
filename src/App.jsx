@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { BlinkBlur } from "react-loading-indicators";
 
-// Lazy-loaded components
 const Navigation = lazy(() => import("./components/Navigation"));
 const Hero = lazy(() => import("./components/Hero"));
 const Experience = lazy(() => import("./components/Experience"));

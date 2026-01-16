@@ -41,7 +41,7 @@ const Hero = () => {
               <a href="#contact">Get In Touch</a>
             </button>
             <a href="/Khush Kalariya.pdf" download>
-              <button className="px-7 py-3 font-semibold text-white border rounded-full hover:bg-white hover:text-black cursor-pointer">
+              <button className="px-7 py-3 font-semibold text-white border rounded-full cursor-pointer transition-all duration-100 hover:bg-white/10 hover:text-white hover:backdrop-blur-md hover:border-white/40 hover:shadow-lg">
                 Download CV
               </button>
             </a>

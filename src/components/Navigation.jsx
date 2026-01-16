@@ -10,7 +10,7 @@ const Navigation = () => {
       {/* Navbar (HALF WIDTH & CENTERED) */}
       <nav
         className=" mx-auto h-16 w-16 md:h-16 md:w-[45%]
-    backdrop-blur-lg bg-white/10 border border-white/30
+    backdrop-blur-lg bg-black/40 border border-white/30
     rounded-full flex items-center justify-center px-6"
       >
         {/* Desktop Menu */}
@@ -44,7 +44,7 @@ const Navigation = () => {
       {open && (
         <div
           className="md:hidden mt-4 mx-auto w-[90%] 
-          backdrop-blur-md bg-white/10 border border-white/50 rounded-2xl"
+          backdrop-blur-xl bg-black/50 border border-white/50 rounded-2xl"
         >
           <ul className="flex flex-col items-center gap-6 py-6 text-white">
             <li className="cursor-pointer">

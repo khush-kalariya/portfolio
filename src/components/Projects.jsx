@@ -84,7 +84,8 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-48 object-cover"
+                    loading="lazy"
+                    className="w-full h-48 object-cover "
                   />
 
                   <div className="p-5 flex items-center justify-between">

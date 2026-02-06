@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Troth Labs",
     location: "Rajkot",
-    duration: "January 2025 – June 2025",
+    duration: "March 2025 – August  2025",
     role: "React.js Developer Intern",
     description:
       "I worked as a frontend developer focused on building modern, responsive, and user-friendly web applications. I specialized in creating clean UI, seamless user experiences, and scalable frontend solutions using modern web technologies.",
